@@ -1,0 +1,50 @@
+/* Står for alt med baggrunden */
+body{
+    display: flex;
+    flex-direction: row;
+}
+.default{
+    background-color: rgb(37, 37, 37);
+}
+.party{
+    animation: infinite 1s party; 
+ }
+ @keyframes party{
+     10%{background-color: blue;}
+     20%{background-color: greenyellow;}
+     30%{background-color: rgb(21, 177, 52);}
+     40%{background-color: rgb(252, 0, 42);}
+     50%{background-color: rgb(83, 197, 17);}
+     60%{background-color: yellow;}
+     70%{background-color: red;}
+     80%{background-color: purple;}
+     100%{background-color: yellow;}
+ }
+
+ /* selve knappen */
+button{
+    font-size: xx-large;
+    width: 33%;
+    aspect-ratio: 16 / 3;
+
+    /* udsenet */
+    border-radius: 15px;
+    border: solid black 2px;
+}
+.tekstDefault{
+    color: black;
+}
+.tekst{ 
+    animation: infinite 1s tekst; 
+}
+@keyframes tekst{
+    10%{color: blue; border: greenyellow 5px; transform: scale(1.2);}
+    20%{color: greenyellow; border: rgb(21, 177, 52) 5px;  transform: scale(1);}
+    30%{color: rgb(21, 177, 52); border: rgb(252, 0, 42) 5px; transform: scale(1.2);}
+    40%{color: rgb(252, 0, 42); border: rgb(83, 197, 17) 5px;  transform: scale(1);}
+    50%{color: rgb(83, 197, 17); border: yellow 5px;  transform: scale(1.2);}
+    60%{color: yellow; border: red 5px;  transform: scale(1);}
+    70%{color: red; border: purple 5px;  transform: scale(1.2);}
+    80%{color: purple; border: yellow 5px;  transform: scale(1);}
+    100%{color: yellow; border: blue 5px;  transform: scale(1.2);}
+}

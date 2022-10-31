@@ -1,0 +1,6 @@
+@import url(rave.css);
+#wrapper{
+    width: 100%;
+    position: fixed;
+    top: 5%;
+}
