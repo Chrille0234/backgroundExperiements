@@ -1,5 +1,10 @@
 function billede(){
     var test = (Math.random() * 10) + 1;
+
+    document.getElementById("bd").style.backgroundSize="cover";
+    document.getElementById("bd").style.backgroundRepeat = "no-repeat";
+    
+    
     
     
     if (parseInt(test) == 1){

@@ -5,8 +5,11 @@ function partyMode() {
     var tekst = document.querySelector(".tekstDefault");
         tekst.classList.toggle("tekst");
 
-    var myAudio = document.getElementById("myAudio");
-        return myAudio.paused ? myAudio.play() : myAudio.pause();
+    document.getElementById("bd").style.backgroundImage = "none";
+    document.getElementById("bd").style.backgroundRepeat = "no-repeat";
+    
+    document.getElementById("bd").style.background = "rgb(37 ,37 ,37)";
+    
 }
 
 function seizure() {

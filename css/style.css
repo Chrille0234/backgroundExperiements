@@ -4,4 +4,17 @@
     width: 100%;
     position: fixed;
     top: 5%;
+
+    margin: 0;
+}
+button{
+    font-size: 3em;
+}
+@media only screen and (max-width:480px) { 
+    #wrapper {
+      height: 300%;
+      height: 5%;
+      position: fixed;
+      top: 5%;
+    }
 }
