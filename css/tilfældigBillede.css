@@ -1,3 +1,5 @@
-#billede{
-    background-image: --baggrunds-bilede;
+#bd{
+    background-color: ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
